@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qla/9owYPFXzsDK99F1lsAnv7qmsrgedi9kxYpNew7iPwXGEyDIt1jXRbDGM7aJ5aTY4qkzC1NLUHnM+s7jpqg==",
+  "success": true,
+  "projectFilePath": "/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/3-writeline/3-writeline.csproj",
+  "expectedPackageFiles": [
+    "/home/ricky/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.0/microsoft.netframework.referenceassemblies.1.0.0.nupkg.sha512",
+    "/home/ricky/.nuget/packages/microsoft.netframework.referenceassemblies.net20/1.0.0/microsoft.netframework.referenceassemblies.net20.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
