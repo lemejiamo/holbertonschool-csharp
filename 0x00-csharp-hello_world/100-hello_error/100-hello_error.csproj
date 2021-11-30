@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapo2.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>_100_hello_error</RootNamespace>
   </PropertyGroup>
 

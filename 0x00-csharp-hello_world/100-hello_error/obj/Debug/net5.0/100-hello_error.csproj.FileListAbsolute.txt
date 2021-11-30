@@ -1,0 +1,16 @@
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.csproj.AssemblyReference.cache
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.GeneratedMSBuildEditorConfig.editorconfig
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.AssemblyInfoInputs.cache
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.AssemblyInfo.cs
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.csproj.CoreCompileInputs.cache
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error.deps.json
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error.runtimeconfig.json
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error.runtimeconfig.dev.json
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error.dll
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/ref/100-hello_error.dll
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/bin/Debug/net5.0/100-hello_error.pdb
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.dll
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/ref/100-hello_error.dll
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.pdb
+/home/ricky/Study/holbertonschool-csharp/0x00-csharp-hello_world/100-hello_error/obj/Debug/net5.0/100-hello_error.genruntimeconfig.cache
