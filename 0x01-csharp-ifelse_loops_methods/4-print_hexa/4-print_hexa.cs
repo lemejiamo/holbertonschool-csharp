@@ -9,7 +9,7 @@ namespace _4_print_hexa
             int dec_num = 0;
             for (; dec_num < 99; dec_num++)
             {
-                string hex = dec_num.ToString("X");
+                string hex = dec_num.ToString("x");
                 Console.WriteLine($"{dec_num} = 0x{hex}");
             }
 
