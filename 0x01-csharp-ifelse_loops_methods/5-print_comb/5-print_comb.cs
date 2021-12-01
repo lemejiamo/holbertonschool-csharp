@@ -7,7 +7,7 @@ namespace _5_print_comb
         static void Main(string[] args)
         {
             string cadena = "";
-            for (int num = 0; num < 100; num++)
+            for (int num = 0; num <= 99; num++)
             {
                 if (num < 10)
                 {
@@ -21,9 +21,8 @@ namespace _5_print_comb
                 {
                     cadena += num.ToString("d") + ',' +  ' ';
                 }
-
             }
-            Console.Write(cadena);
+            Console.WriteLine(cadena);
 
         }
     }
