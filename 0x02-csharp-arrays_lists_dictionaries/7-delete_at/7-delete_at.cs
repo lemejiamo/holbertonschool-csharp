@@ -5,18 +5,14 @@ class List
 {
     public static List<int> DeleteAt(List<int> myList, int index)
     {
-        int len = myList.Count;
-        if (myList.Count == 0)
-        {
-            Console.WriteLine("List is empty");
-            return myList;
-        }
-        else if (index > len)
+        if (index >= myList.Count | index < 0)
         {
             Console.WriteLine("Index is out of range");
-            return myList;
         }
-        myList.Remove(index);
+        else
+        {
+            myList.Remove(myList[index]);
+        }
 
         return myList;
     }
