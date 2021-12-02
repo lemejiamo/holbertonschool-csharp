@@ -27,4 +27,9 @@ class MyStack
         Console.WriteLine("Stack contains {0}: {1}", search, contains_element);
         return aStack;
     }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
+    }
 }
