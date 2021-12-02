@@ -9,7 +9,7 @@ class Dictionary
         int max = 0;
         string best = "";
 
-        if (myList == null)
+        if (myList.Count <= 0)
             return "None";
 
         foreach(KeyValuePair<string, int> entry in myList)
