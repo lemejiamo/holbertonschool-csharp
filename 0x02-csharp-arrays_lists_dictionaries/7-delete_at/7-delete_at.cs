@@ -9,12 +9,12 @@ class List
         if (myList.Count == 0)
         {
             Console.WriteLine("List is empty");
-            return null;
+            return myList;
         }
         else if (index > len)
         {
             Console.WriteLine("Index is out of range");
-            return null;
+            return myList;
         }
         myList.Remove(index);
 
