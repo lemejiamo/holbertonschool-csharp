@@ -10,7 +10,7 @@ class List
         if (size <= 0)
         {
             Console.WriteLine();
-            return _list;
+            return null;
         }
         do
         {
