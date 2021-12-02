@@ -14,12 +14,9 @@ namespace _14_rectangular_array
                 for(int j = 0; j < 5; j++)
                 {
                     if(j == 2 && i == 2 )
-                    {
                         matrix[i,j] = 1;
-                    }
                     else
                         matrix[i,j] = 0;
-                    
                     Console.Write("{0}", j < 5-1 ? matrix[i, j] : matrix[i,j] +"\n");
                 }
             }
