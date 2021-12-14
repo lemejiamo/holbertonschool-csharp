@@ -19,4 +19,7 @@ struct Dog
     public float age;
     public string owner;
     public Rating rating;
+
+    public override string ToString() => $"Dog Name: {name}\nAge: {age}\nOwner: {owner}\nRating: {rating}";
+
 } 
