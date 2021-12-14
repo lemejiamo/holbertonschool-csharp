@@ -8,19 +8,25 @@ class List
         try
         {
             int index = 0;
-
-            for (; index < listLength; index++) 
+            try
             {
-                int result = list1[index] / list2[index];
-                results.Add(result);
+                for (; index < listLength; index++) 
+                {
+                    int result = list1[index] / list2[index];
+                    results.Add(result);
+                }
             }
+            catch(DivideByZeroException)
+            {
+                Console.WriteLine("Cannot divide by zero");
+                results.Add(0);
+            }
+            catch(System.ArgumentOutOfRangeException)
+            {
+            Console.WriteLine("Out of range");
+            }   
         }
-        catch(DivideByZeroException)
-        {
-            Console.WriteLine("Cannot divide by zero");
-            results.Add(0);
-        }
-        catch(Exception)
+        catch(System.ArgumentOutOfRangeException)
         {
             Console.WriteLine("Out of range");
         }
