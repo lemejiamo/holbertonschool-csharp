@@ -15,8 +15,8 @@ struct Dog
         age = Age;
         owner = Owner;
     }
-    public string name {get; init;}
-    public float age {get; init;}
-    public string owner {get; init;}
-    public Rating rating {get; init;}
+    public string name;
+    public float age;
+    public string owner;
+    public Rating rating;
 } 
