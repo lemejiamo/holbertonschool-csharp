@@ -44,7 +44,7 @@ namespace Enemies
         }
 
         /// <summary>
-        /// Method to set & get  name to  a zombie
+        /// Method to set and get  name to  a zombie
         /// </summary>
         public string Name
         {
