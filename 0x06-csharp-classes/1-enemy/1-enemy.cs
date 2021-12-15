@@ -2,18 +2,16 @@
 
 namespace Enemies
 {
-    /// <summary>
-    ///  Public class Zombie.
-    /// </summary>
+    /// <summary> Public class Zombie </summary>
     public class Zombie
     {
         /// <summary>
-        ///  Field  to get zombie Health .
+        /// Field Zombie Health .
         /// </summary>
         public int health;
 
         /// <summary>
-        ///  constructor for a Zombie.
+        /// constructor for a Zombie.
         /// </summary>
         public Zombie()
         {
