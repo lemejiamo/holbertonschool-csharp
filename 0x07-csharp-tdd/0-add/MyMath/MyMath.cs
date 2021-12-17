@@ -2,8 +2,13 @@
 
 namespace MyMath
 {
-    public static int Add(int a, int b)
+    /// <summary>METHODS TO DO ARITMETHIC FUNTIONS</summary>
+    public class Operations
     {
-        return a+b;
+        /// <summary>METHOD TO ADD 2 NUMBERS</summary>
+        public static int Add(int a, int b)
+        {
+            return a+b;
+        }
     }
 }
