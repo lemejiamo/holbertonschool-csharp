@@ -6,11 +6,6 @@ namespace MyMath
     /// <summary>METHODS TO DO ARITMETHIC FUNTIONS</summary>
     public class Operations
     {
-        /// <summary>METHOD TO ADD 2 NUMBERS</summary>
-        public static int Add(int a, int b)
-        {
-            return a+b;
-        }
         /// <summary>method to return the max integer in a list of integers</summary>
         public static int Max(List<int> nums)
         {
