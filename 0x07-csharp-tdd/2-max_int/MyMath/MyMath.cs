@@ -19,7 +19,7 @@ namespace MyMath
                 if(num > max_integer)
                     max_integer = num;
             }
-            return max_integer
+            return max_integer;
         }
     }
 }
