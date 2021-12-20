@@ -1,5 +1,7 @@
 ﻿using System;
-
+/// <summary>
+/// static method to veryfy if object is type of 'int'
+/// </summary>
 class Obj
 {
     /// <summary>
