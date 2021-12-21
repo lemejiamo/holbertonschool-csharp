@@ -54,7 +54,7 @@ class Rectangle : Shape
         }
     }
     /// <summary>override area method</summary>
-    public override int Area()
+    public new int Area()
     {
         return width * height;
     }
