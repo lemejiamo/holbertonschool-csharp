@@ -11,18 +11,17 @@ class Shape
 }
 class Rectangle : Shape
 {
-    /// <summary>Private attribute width</summary>
+    ///<summary>private int width </summary>
     private int width;
-    /// <summary>private attribute height</summary>
+
+    ///<summary>private int height </summary>
     private int height;
-    /// <summary>
-    /// property to get a set width value
-    /// </summary>
-    public int Width
-    {
+
+    /// <summary>public int Width</summary>
+    public int Width {
         get
         {
-            return width;
+            return (width);
         }
         set
         {
@@ -36,18 +35,18 @@ class Rectangle : Shape
             }
         }
     }
-    ///<sumary>property to get and set height value</sumary>
-    public int Height
-    {
+
+    /// <summary>public property</summary>
+    public int Height {
         get
         {
-            return height;
+            return (height);
         }
         set
         {
             if (value < 0)
             {
-                throw new ArgumentException("Width must be greater than or equal to 0");
+                throw new ArgumentException("Height must be greater than or equal to 0");
             }
             else
             {
