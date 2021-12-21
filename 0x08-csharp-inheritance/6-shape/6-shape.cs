@@ -15,12 +15,14 @@ class Rectangle : Shape
     private int width;
     /// <summary>private attribute height</summary>
     private int height;
-    /// <summary>property to get a set width value</summary>
+    /// <summary>
+    /// property to get a set width value<
+    /// /summary>
     public int Width
     {
         get
         {
-            return this.width;
+            return width;
         }
         set
         {
@@ -30,7 +32,7 @@ class Rectangle : Shape
             }
             else
             {
-                this.width = value;
+                width = value;
             }
         }
     }
@@ -39,7 +41,7 @@ class Rectangle : Shape
     {
         get
         {
-            return this.height;
+            return height;
         }
         set
         {
@@ -49,7 +51,7 @@ class Rectangle : Shape
             }
             else
             {
-                this.height = value;
+                height = value;
             }
         }
     }
