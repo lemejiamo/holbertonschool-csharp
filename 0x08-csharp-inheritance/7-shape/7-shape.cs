@@ -1,25 +1,25 @@
 using System;
-
-/// <summary>a class Shape.</summary>
+/// <summary>
+/// empty class Shape
+/// </summary>
 class Shape
 {
-    /// <summary>public method: public virtual int Area()</summary>
     public virtual int Area()
     {
         throw new NotImplementedException("Area() is not implemented");
     }
 }
-
-/// <summary>a class Rectangle that inherits from Shape</summary>
-class Rectangle : Shape {
-    ///<summary>private int width </summary>
+class Rectangle : Shape
+{
+    /// <summary>Private attribute width</summary>
     private int width;
 
-    ///<summary>private int height </summary>
+    /// <summary>private attribute height</summary>
     private int height;
 
-    /// <summary>public int Width</summary>
-    public int Width {
+    /// <summary>property to get a set width value</summary>
+    public int Width
+    {
         get
         {
             return (width);
@@ -36,9 +36,9 @@ class Rectangle : Shape {
             }
         }
     }
-
-    /// <summary>public property</summary>
-    public int Height {
+    ///<sumary>property to get and set height value</sumary>
+    public int Height
+    {
         get
         {
             return (height);
@@ -55,14 +55,14 @@ class Rectangle : Shape {
             }
         }
     }
-    /// <summary>will override the Area() method defined in the Shape base class.</summary>
+    /// <summary>override area method</summary>
     public new int Area()
     {
-        return (height * width);
+        return (width * height);
     }
-    /// <summary>public override string ToString().</summary>
+    /// <summary>override ToString method</summary>
     public override string ToString()
     {
-        return (string.Format("[Rectangle] {0} / {1}", width, height));
+        return ($"[Rectangle]: {width} / {height}");
     }
 }
