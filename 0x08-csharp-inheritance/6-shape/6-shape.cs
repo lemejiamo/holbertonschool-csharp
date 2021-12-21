@@ -16,8 +16,8 @@ class Rectangle : Shape
     /// <summary>private attribute height</summary>
     private int height;
     /// <summary>
-    /// property to get a set width value<
-    /// /summary>
+    /// property to get a set width value
+    /// </summary>
     public int Width
     {
         get
