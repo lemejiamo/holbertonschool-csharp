@@ -1,7 +1,5 @@
 ﻿using System;
 
-namespace _6_vector_addition
-{
     /// <summary>
     /// Method to adds to vector
     /// </summary>
@@ -31,4 +29,3 @@ namespace _6_vector_addition
             return vector;
         }
     }
-}
