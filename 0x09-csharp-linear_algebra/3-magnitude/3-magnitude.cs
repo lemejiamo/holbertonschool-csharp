@@ -3,15 +3,15 @@
 /// <summary>
 /// Method that calculates and returns the length of a given vector.
 /// </summary>
-
 class VectorMath
 {
     /// <summary>
     /// Methot that returns a magnitud of a given 2D or 3D vector
     /// </summary>
     /// <param name="vector"></param>
-    /// <returns>The Vector magnitude</returns>
-
+    /// <returns>
+    /// The Vector magnitude
+    /// </returns>
     public static double Magnitude(double[] vector)
     {
         double sum = 0, magnitude = 0;
