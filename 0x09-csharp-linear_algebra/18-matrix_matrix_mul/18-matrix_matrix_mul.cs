@@ -35,7 +35,7 @@ class MatrixMath
                 temp = 0;
                 for (k = 0; k < cols_m1; k++)
                 {
-                    temp += matrix1[i, k] + matrix2[k, j];
+                    temp += matrix1[i, k] * matrix2[k, j];
                 }
                 new_matrix[i, j] = Math.Round(temp,2);
             }
