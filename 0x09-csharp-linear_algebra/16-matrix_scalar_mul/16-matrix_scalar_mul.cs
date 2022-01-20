@@ -13,9 +13,9 @@ class MatrixMath
             return new double[,] { { -1 } };
         }
 
-        for(i=0; i<matrix.GetLength(0), i++)
+        for(i=0; i<matrix.GetLength(0); i++)
         {
-            for(j=0; j< matrix.GetLength(1), j++)
+            for(j=0; j< matrix.GetLength(1); j++)
             {
                 new_matrix[i, j] = matrix[i, j] * scalar;
             }
