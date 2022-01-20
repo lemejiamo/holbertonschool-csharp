@@ -29,7 +29,7 @@ class MatrixMath
                 for (k = 0; k < 2; k++)
                 {
                     temp += matrix[i, k] * transform_Matrix[k, j];
-                    temp = Math.Round(temp, 2);
+                    temp = Math.Round(temp, 0);
                 }
                 new_Matrix[i, j] = temp;
             }
