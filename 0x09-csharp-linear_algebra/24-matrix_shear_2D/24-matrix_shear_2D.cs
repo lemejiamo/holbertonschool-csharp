@@ -67,25 +67,4 @@ class MatrixMath
 
         return _shear;
     }
-
-    static void Main(string[] args)
-    {
-        double[,] m2 = { { 1, 2}, { 3, 4 }};
-        double[,] result;
-        int i = 0, j = 0;
-        char x = 'X';
-        
-        result = Shear2D(m2, x, 2.0);
-
-        for (i = 0; i < result.GetLength(0); i++)
-        {
-            for (j = 0; j < result.GetLength(1); j++)
-            {
-                Console.Write(result[i, j]);
-                if (j != result.GetLength(1) - 1)
-                    Console.Write(" ");
-            }
-            Console.WriteLine();
-        }
-    }
 }
