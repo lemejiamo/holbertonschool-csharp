@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 /// <summary>
-/// Contains all the Method used to handle vectors and matrix
+/// Contains all the Method used to handle matrix 
 /// </summary>
-class VectorMath
+class MatrixMath
 {
     /// <summary>
     /// Method to adds two matrix
@@ -30,10 +30,10 @@ class VectorMath
         return new_Matrix;
     }
 
-    /*static void Main(string[] args)
+    static void Main(string[] args)
     {
         double[,] matrix = { { 1, 2 }, { 3, 4 }, { 5, 8} };
-        double[,] matrix2 = { { 1, 2 }, { 3, 4 }, { 3, 7}, { 3, 8} };
+        double[,] matrix2 = { { 1, 2 }, { 3, 4 }, { 3, 7}};
         double[,] result;
         int i = 0, j = 0;
         result = Add(matrix, matrix2);
@@ -48,5 +48,5 @@ class VectorMath
             }
             Console.WriteLine();
         }
-    }*/
+    }
 }
