@@ -1,7 +1,15 @@
 ﻿using System;
-
+/// <summary>
+/// Contains all the Method used to handle matrix 
+/// </summary>
 class MatrixMath
 {
+    /// <summary>
+    /// Method to multiply two vectors
+    /// </summary>
+    /// <param name="matrix1"></param>
+    /// <param name="matrix2"></param>
+    /// <returns></returns>
     public static double[,] Multiply(double[,] matrix1, double[,] matrix2)
     {
         int cols_m1 = matrix1.GetLength(1);
@@ -30,16 +38,19 @@ class MatrixMath
         }
         return new_matrix;
     }
-
+    /// <summary>
+    /// Method to apply a shear to a 2d matrix
+    /// </summary>
+    /// <param name="matrix"></param>
+    /// <param name="direction"></param>
+    /// <param name="factor"></param>
+    /// <returns></returns>
     public static double[,] Shear2D(double[,] matrix, char direction, double factor)
     {
 
         double[,] basis_vector = new double[,] { { 1, 0 }, { 0 ,1} };
         double[,] _shear = new double[2, 2];
-        int i = 0;
-        int j = 0;
-        int k = 0;
-
+    
         if (direction != 'X' && direction != 'Y')
             return new double[,] { { -1 } };
 
@@ -57,13 +68,12 @@ class MatrixMath
         return _shear;
     }
 
-    /*static void Main(string[] args)
+    static void Main(string[] args)
     {
         double[,] m2 = { { 1, 2}, { 3, 4 }};
         double[,] result;
         int i = 0, j = 0;
         char x = 'X';
-        char y = 'Y';
         
         result = Shear2D(m2, x, 2.0);
 
@@ -77,5 +87,5 @@ class MatrixMath
             }
             Console.WriteLine();
         }
-    }*/
+    }
 }
