@@ -51,6 +51,9 @@ class MatrixMath
         double[,] basis_vector = new double[,] { { 1, 0 }, { 0 ,1} };
         double[,] _shear = new double[2, 2];
     
+        if (matrix.GetLength(0) != 2 && matrix.GetLength(1) != 2)
+            return new double[,] { { -1 } };
+
         if (direction != 'X' && direction != 'Y')
             return new double[,] { { -1 } };
 
@@ -67,4 +70,5 @@ class MatrixMath
 
         return _shear;
     }
+        
 }
