@@ -32,9 +32,6 @@ class MatrixMath
                 new_Matrix[i, j] = temp;
             }
         }
-
         return new_Matrix;
-
     }
-    
 }
