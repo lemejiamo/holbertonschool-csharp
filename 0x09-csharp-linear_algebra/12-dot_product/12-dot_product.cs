@@ -24,7 +24,7 @@ class VectorMath
         //Verify if the two vectors has the same Length
         var x = vector1.Length != vector2.Length ? 1 : 0;
         if (x == 1)
-           return -3;
+           return -1;
 
         // Funt to calculate the Magnitude of a vector
         Func<double[], double> Magnitude = vector => Math.Round(Math.Sqrt(vector.Aggregate((accum, current) => accum + (current * current))), 2);
@@ -40,16 +40,6 @@ class VectorMath
         }
 
         return dot_Product;
-
     }
 
-    static void Main(string[] args)
-    {
-        double[] v1 = new double[3] { 1, 4, 5 };
-        double[] v2= new double[3] { 15, 44, 35 };
-
-        var exe = DotProduct(v1, v2);
-        Console.WriteLine(exe);
-        
-    }
 }
