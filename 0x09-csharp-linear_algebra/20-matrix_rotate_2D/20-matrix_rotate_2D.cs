@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.Text.RegularExpressions;
+using System;
 
 class MatrixMath
 {
@@ -28,6 +29,7 @@ class MatrixMath
                 for (k = 0; k < 2; k++)
                 {
                     temp += matrix[i, k] * transform_Matrix[k, j];
+                    temp = Math.Round(temp, 2);
                 }
                 new_Matrix[i, j] = temp;
             }
