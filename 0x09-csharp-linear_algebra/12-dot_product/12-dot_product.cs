@@ -16,7 +16,6 @@ class VectorMath
     public static double DotProduct(double[] vector1, double[] vector2)
     {
         // basis vector
-        double i = 1, j = 1, k = 1;
         double magnitude_vector1, magnitude_vector2;
         double[] v1 = vector1;
         double[] v2 = vector2;
@@ -27,7 +26,7 @@ class VectorMath
         if (x == 1)
            return -3;
 
-        /// Funt to calculate the Magnitude of a vector
+        // Funt to calculate the Magnitude of a vector
         Func<double[], double> Magnitude = vector => Math.Round(Math.Sqrt(vector.Aggregate((accum, current) => accum + (current * current))), 2);
 
         magnitude_vector1 = Magnitude(v1);
@@ -44,7 +43,7 @@ class VectorMath
 
     }
 
-    /*static void Main(string[] args)
+    static void Main(string[] args)
     {
         double[] v1 = new double[3] { 1, 4, 5 };
         double[] v2= new double[3] { 15, 44, 35 };
@@ -52,5 +51,5 @@ class VectorMath
         var exe = DotProduct(v1, v2);
         Console.WriteLine(exe);
         
-    }*/
+    }
 }
