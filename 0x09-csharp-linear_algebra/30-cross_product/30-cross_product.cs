@@ -2,7 +2,7 @@
 /// <summary>
 /// Contains all the Method used to handle matrix 
 /// </summary>
-class MatrixMath 
+class VectorMath 
 {
     /// <summary>
     /// Calculate the cross product for 3x3 matrix
