@@ -1,7 +1,15 @@
 ﻿using System;
-
+/// <summary>
+/// Contains all the Method used to handle matrix 
+/// </summary>
 class MatrixMath 
 {
+    /// <summary>
+    /// Calculate the cross product for 3x3 matrix
+    /// </summary>
+    /// <param name="vector1"></param>
+    /// <param name="vector2"></param>
+    /// <returns></returns>
     public static double[] CrossProduct(double[] vector1, double[] vector2)
     {
         double[] product = new double[] { 0, 0, 0 };
